@@ -5,6 +5,7 @@ of Things al monitoraggio ambientale, dai sistemi industriali ai servizi digital
 le peculiarità di questo tipo di dati, ad alta frequenza di registrazione e rapida crescita nel
 volume, pongono sfide significative in termini di scalabilità, efficienza delle interrogazioni
 e persistenza nel lungo periodo.
+
 Questa Tesi esplora le potenzialità di TimescaleDB, un’estensione per PostgreSQL
 progettata specificamente per la gestione efficiente delle serie temporali, confrontandola
 con soluzioni alternative tradizionali e specializzate. Viene approfondita l’architettura di
@@ -12,6 +13,7 @@ TimescaleDB, evidenziando le sue soluzioni innovative come l’approccio ibrido 
 base relazionali e soluzioni pensate ad-hoc per le time-series, come l’uso di hypertable e
 chunking automatico, nonché le ottimizzazioni per query aggregate e compressione dei
 dati.
+
 Attraverso un caso di studio basato su dati raccolti da un sensore reale, viene simu-
 lata la strutturazione di un’applicazione concreta di gestione di serie temporali. Questo
 scenario funge da riferimento pratico per introdurre le problematiche tipiche del domi-
@@ -21,6 +23,7 @@ performance del sistema in termini di scalabilità, tempi di risposta, efficienz
 query e capacità di compressione. I risultati evidenziano l’efficienza complessiva di
 TimescaleDB nell’elaborazione e compressione di grandi volumi di dati temporali, anche
 in scenari ad elevato carico.
+
 L’obiettivo è comprendere vantaggi, limiti e implicazioni pratiche dell’adozione di una
 soluzione come TimescaleDB nella gestione di time series a lungo termine. Infine, vengo-
 no presentate alcune considerazioni conclusive e possibili sviluppi futuri, con particolare
